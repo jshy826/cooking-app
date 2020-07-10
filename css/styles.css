@@ -1,0 +1,170 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.phone-shape {
+  margin: 30px 0px;
+  background-color: white;
+  width: 350px;
+  height: 700px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  margin-top: 20px;
+  background-color: #f7f3f3;
+}
+
+.header-icons i,
+.footer-icon i {
+  cursor: pointer;
+}
+
+.popular-recipes {
+  width: 100%;
+  height: 200px;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
+
+.prs__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.recipes-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.pres__title-view {
+  font-size: 12px;
+  color: red;
+}
+
+.recipes-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipes-books .select-recipe {
+  height: 80px;
+  width: 125px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  margin: 4px 5px;
+}
+
+.select-recipe:nth-child(1) {
+  background: linear-gradient(rgba(165, 165, 165, 0.2), rgb(0, 0, 0, 0.4) 85%),
+    url("https://cdn.pixabay.com/photo/2017/03/23/19/57/asparagus-2169305__340.jpg");
+  background-size: cover;
+}
+
+.select-recipe:nth-child(2) {
+  background: linear-gradient(rgba(165, 165, 165, 0.2), rgb(0, 0, 0, 0.4) 85%),
+    url("https://cdn.pixabay.com/photo/2018/05/01/18/21/eclair-3366430__340.jpg");
+  background-size: cover;
+}
+
+.select-recipe:nth-child(3) {
+  background: linear-gradient(rgba(165, 165, 165, 0.2), rgb(0, 0, 0, 0.4) 85%),
+    url("https://cdn.pixabay.com/photo/2018/03/20/09/18/food-3242588__340.jpg");
+
+  background-size: cover;
+}
+
+.select-recipe:nth-child(4) {
+  background: linear-gradient(rgba(165, 165, 165, 0.2), rgb(0, 0, 0, 0.4) 85%),
+    url("https://cdn.pixabay.com/photo/2017/04/23/09/49/smoothies-2253430__340.jpg");
+  background-size: cover;
+}
+
+.other-recipes {
+  height: 280px;
+  width: 100%;
+  margin-top: 40px;
+  padding: 15px 20px;
+}
+
+.ots-title {
+  margin-bottom: 15px;
+}
+
+.ots-select-list {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ots-select-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+.ots-sub-title {
+  font-size: 12px;
+  opacity: 0.4;
+  margin-top: 5px;
+}
+
+.ots-select-next {
+  color: red;
+}
+
+.footer-icon {
+  height: 300px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0px 20px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #f7f7f7;
+}
+
+.footer-icon-list {
+  font-size: 20px;
+  color: #9aa9c2;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.footer-icon-list:nth-child(2) {
+  color: rgb(245, 59, 59);
+}
